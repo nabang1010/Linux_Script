@@ -19,6 +19,11 @@ conda config --set auto_activate_base true
 conda config --set auto_activate_base false
 ```
 
+### List all enviroments
+
+```console
+conda info --env
+```
 
 ### Create new enviroment
 
@@ -26,8 +31,10 @@ conda config --set auto_activate_base false
 conda create -n newEnvName python=3.6
 ```
 
-### List all enviroment
+### Conda delete a enviroment
 
 ```console
-conda info --env
+conda env remove -n [ENV_NAME]
 ```
+
+
