@@ -37,4 +37,8 @@ conda create -n newEnvName python=3.6
 conda env remove -n [ENV_NAME]
 ```
 
+### Clean cache
 
+```console
+condac clean --all
+```
