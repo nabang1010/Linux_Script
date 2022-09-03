@@ -42,3 +42,9 @@ conda env remove -n [ENV_NAME]
 ```console
 condac clean --all
 ```
+
+### Export enviroment library
+
+```console
+conda env export > env.yaml
+```
