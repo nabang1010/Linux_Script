@@ -1,6 +1,6 @@
 
 
-# Install CUDA Tool Kit 10.2 on Ubuntu 18.04 LTS
+# Install CUDA Tool Kit  10.2 on Ubuntu 18.04 LTS
 
 ## Vertify Hardware
 
