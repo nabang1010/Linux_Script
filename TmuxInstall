@@ -1,0 +1,56 @@
+## tmux config
+```
+# Send prefix
+set-option -g prefix C-t
+unbind-key C-t
+bind-key C-t send-prefix
+ 
+# Use Alt-arrow keys to switch panes
+bind -n M-Left select-pane -L
+bind -n M-Right select-pane -R
+bind -n M-Up select-pane -U
+bind -n M-Down select-pane -D
+ 
+# Shift arrow to switch windows
+bind -n S-Left previous-window
+bind -n S-Right next-window
+ 
+# Mouse mode
+setw -g mouse on
+
+
+ 
+# Set easier window split keys
+bind-key v split-window -h
+bind-key h split-window -v
+ 
+# set -g @plugin 'tmux-plugins/tmux-cpu'
+set -g status-right '#{cpu_fg_color} CPU: #{cpu_percentage} #{cpu_temp_fg_color} #{cpu_temp} | #{ram_fg_color} RAM: #{ram_percentage} | #{gpu_fg_color} GPU: #{gram_percentage} #{gpu_temp_fg_color} #{gpu_temp} | %a %d-%h-%Y %H:%M '
+
+
+
+# set -g status-interval 2
+# set -g status-left "#S #[fg=green,bg=black]#(tmux-mem-cpu-load --colors --interval 2)#[default]"
+set -g status-left-length 60
+set-option -g status on
+set-option -g status-interval 1
+set-option -g status-justify centre
+set-option -g status-keys vi
+set-option -g status-position bottom
+set-option -g status-style fg=colour136,bg=colour235
+set-option -g status-left-length 20
+set-option -g status-left-style default
+# set-option -g status-left "#[fg=green]#H #[fg=black]• #[fg=green,bright]#(uname -r)#[default]"
+set-option -g status-right-length 140
+set-option -g status-right-style default
+# set-option -g status-right "#[fg=green,bg=default,bright]#(tmux-mem-cpu-load) "
+# set-option -ag status-right "#[fg=red,dim,bg=default]#(uptime | cut -f 4-5 -d ' ' | cut -f 1 -d ',') "
+# set-option -ag status-right " #[fg=white,bg=default]%a%l:%M:%S %p#[default] #[fg=blue]%d-%m-%Y"
+set-window-option -g window-status-style fg=colour244
+set-window-option -g window-status-style bg=default
+set-window-option -g window-status-current-style fg=colour166
+set-window-option -g window-status-current-style bg=default
+run-shell ~/clone/path/cpu.tmux
+# Easy config reload
+bind-key r source-file ~/.tmux.conf \; display-message "~/.tmux.conf reloaded."
+```
