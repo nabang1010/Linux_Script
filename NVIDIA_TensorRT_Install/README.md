@@ -1,4 +1,4 @@
-# Install TensorRT 
+# Install NVIDIA TensorRT 
 
 ---
 [***@nabang1010***](https://github.com/nabang1010)
