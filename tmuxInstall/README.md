@@ -1,3 +1,35 @@
+# Install Tmux
+---
+[***@nabang1010***](https://github.com/nabang1010)
+
+## Install Tmux
+
+```bash
+sudo apt install tmux
+```
+
+## Command
+
+### Tmux New Session
+
+```bash
+tmux new -s NAME_SESSION
+```
+
+### Tmux List All Session
+
+```bash
+tmux ls
+```
+
+### Tmux Attach Session
+
+```bash
+tmux a -t NAME_SESSION
+```
+
+
+
 ## tmux config
 ```
 # Send prefix

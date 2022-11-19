@@ -1,5 +1,9 @@
 # Install TensorRT 
 
+---
+[***@nabang1010***](https://github.com/nabang1010)
+
+
 ## Install PyCUDA
 
 If you are using the TensorRT Python API and PyCUDA isn’t already installed on your system, see Installing PyCUDA.

@@ -1,6 +1,6 @@
-
-
 # Install CUDA Tool Kit  10.2 on Ubuntu 18.04 LTS
+---
+[***@nabang1010***](https://github.com/nabang1010)
 
 ## Vertify Hardware
 
@@ -30,12 +30,14 @@ sudo apt-get -y install cuda
 ```
 sudo gedit ~/.bashrc
 ```
+
 2. Insert 2 lines and save
 
 ```
 export PATH=/usr/local/cuda-10.2/bin${PATH:+:${PATH}}
 export LD_LIBRARY_PATH=/usr/local/cuda-10.2/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
 ```
+
 3. Use `source` command is to refresh the current **shell** environment by running the bashrc file.
 
 ```

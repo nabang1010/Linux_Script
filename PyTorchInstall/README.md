@@ -1,3 +1,8 @@
+# Install PyTorch
+---
+
+[***@nabang1010***](https://github.com/nabang1010)
+
 ## Ubuntu 18.04 
 ## CUDA 10.2
 ### Install using `pip` 
