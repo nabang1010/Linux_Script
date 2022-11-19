@@ -1,20 +1,21 @@
 # Linux Script
----
-Linux Script by [***@nabang1010***](https://github.com/nabang1010)
 
-## Anaconda
-## Visual Studio Code
-## [Git](Linux_Script/Git_Setup)
-## OpenCV Build
-## NVIDIA Driver
-## NVIDIA CUDA Toolkit
-## NVIDIA cuDNN
-## NVIDIA TensorRT
-## PyTorch
-## Tmux
-## ZSH
-## ibusBamboo
-## Qt
+Linux Script by [***@nabang1010***](https://github.com/nabang1010)
+---
+
+### Anaconda
+### Visual Studio Code
+### [Git](https://github.com/nabang1010/Linux_Script/Git_Setup)
+### OpenCV Build
+### NVIDIA Driver
+### NVIDIA CUDA Toolkit
+### NVIDIA cuDNN
+### NVIDIA TensorRT
+### PyTorch
+### Tmux
+### ZSH
+### ibusBamboo
+### Qt
 ---
 # References
 
