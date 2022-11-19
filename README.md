@@ -1,11 +1,12 @@
 # Linux Script
 
-Linux Script by [***@nabang1010***](https://github.com/nabang1010)
+
 ---
+Linux Script by [***@nabang1010***](https://github.com/nabang1010)
 
 ### Anaconda
 ### Visual Studio Code
-### [Git](https://github.com/nabang1010/Linux_Script/Git_Setup)
+### [Git](./Git_Setup/README.md)
 ### OpenCV Build
 ### NVIDIA Driver
 ### NVIDIA CUDA Toolkit
