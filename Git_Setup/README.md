@@ -18,7 +18,7 @@ git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 ```
 
-## Multi-account SSH
+## Multi-account SSH 1 server
 
 1. Change to `.ssh` directory
 
