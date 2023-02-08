@@ -221,6 +221,12 @@ List all containers running
 ```bash
 docker ps
 ```
+### Docker list images
+List all images
+
+```bash
+docker images ls
+```
 
 ### Docker stop container
 Stop one or more running containers
